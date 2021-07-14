@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom, #cfd9df 0%, #e2ebf0 100%);
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block1{
+    width: 170px;
+    height: 30px;
+    
+    display: flex;
+    justify-content: flex-start;
+}.button1{
+    width: 20px;
+    height: 20px;
+    transform: scale(1);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.719);
+    margin: 5px 0px 0 0;
+    animation-name: flupe;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes flupe {
+    0%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(255, 255, 255, 0.692) ;
+    }
+     75%{
+        transform: scale(0.4);
+        box-shadow:0 0 0 10px rgba(255, 255, 255, 0.61) ;
+    }
+    100%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(255, 255, 255, 0.534) ;
+    }
+}
+.button2{
+    width: 20px;
+    height: 20px;
+    transform: scale(1);
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 0 0 rgb(255, 0, 0);
+    margin: 5px 0px 0 0;
+    animation-name: flupetwo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes flupetwo {
+    0%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(255, 0, 0, 0.692) ;
+    }
+     75%{
+        transform: scale(0.4);
+        box-shadow:0 0 0 10px rgba(255, 0, 0, 0.61) ;
+    }
+    100%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(255, 0, 0, 0.534) ;
+    }
+}
+.button3{
+    width: 20px;
+    height: 20px;
+    transform: scale(1);
+    border-radius: 50%;
+    background-color: rgb(255, 208, 0);
+    box-shadow: 0 0 0 0 rgb(255, 208, 0);
+    margin: 5px 0px 0 0;
+    animation-name: flupethree;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes flupethree {
+    0%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(255, 208, 0, 0.692) ;
+    }
+     75%{
+        transform: scale(0.4);
+        box-shadow:0 0 0 10px rgba(255, 208, 0, 0.61) ;
+    }
+    100%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(255, 208, 0, 0.534) ;
+    }
+}
+.button4{
+    width: 20px;
+    height: 20px;
+    transform: scale(1);
+    border-radius: 50%;
+    background-color: rgb(255, 196, 0);
+    box-shadow: 0 0 0 0 rgb(255, 196, 0);
+    margin: 5px 0px 0 0;
+    animation-name: flupefour;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes flupefour {
+    0%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(255, 196, 0, 0.692) ;
+    }
+     75%{
+        transform: scale(0.4);
+        box-shadow:0 0 0 10px rgba(255, 196, 0, 0.61) ;
+    }
+    100%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(255, 196, 0, 0.534) ;
+    }
+}
+.button5{
+    width: 20px;
+    height: 20px;
+    transform: scale(1);
+    border-radius: 50%;
+    background-color: rgb(0, 153, 255);
+    box-shadow: 0 0 0 0 rgb(0, 153, 255);
+    margin: 5px 0px 0 0;
+    animation-name: flupefive;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes flupefive {
+    0%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(0, 153, 255, 0.692) ;
+    }
+     75%{
+        transform: scale(0.4);
+        box-shadow:0 0 0 10px rgba(0, 153, 255, 0.61) ;
+    }
+    100%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(0, 153, 255, 0.534) ;
+    }
+}
+.button6{
+    width: 20px;
+    height: 20px;
+    transform: scale(1);
+    border-radius: 50%;
+    background-color: rgb(0, 255, 200);
+    box-shadow: 0 0 0 0 rgb(0, 255, 200);
+    margin: 5px 0px 0 0;
+    animation-name: flupesix;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes flupesix {
+    0%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(0, 255, 200, 0.692) ;
+    }
+     75%{
+        transform: scale(0.4);
+        box-shadow:0 0 0 10px rgba(0, 255, 200, 0.61) ;
+    }
+    100%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(0, 255, 200, 0.534) ;
+    }
+}
+.button7{
+    width: 20px;
+    height: 20px;
+    transform: scale(1);
+    border-radius: 50%;
+    background-color: rgb(89, 0, 255);
+    box-shadow: 0 0 0 0 rgb(89, 0, 255);
+    margin: 5px 0px 0 0;
+    animation-name: flupeseven;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes flupeseven {
+    0%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(89, 0, 255, 0.692) ;
+    }
+     75%{
+        transform: scale(0.4);
+        box-shadow:0 0 0 10px rgba(89, 0, 255, 0.61) ;
+    }
+    100%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(89, 0, 255, 0.534) ;
+    }
+}
+.button8{
+    width: 20px;
+    height: 20px;
+    transform: scale(1);
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 0 0 rgb(0, 0, 0);
+    margin: 5px 0px 0 0;
+    animation-name: flupeeight;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes flupeeight {
+    0%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(0, 0, 0, 0.692) ;
+    }
+     75%{
+        transform: scale(0.4);
+        box-shadow:0 0 0 10px rgba(0, 0, 0, 0.61) ;
+    }
+    100%{
+        transform: scale(0.2);
+        box-shadow:0 0 0 0 rgba(0, 0, 0, 0.534) ;
+    }
+}
